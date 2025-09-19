@@ -1,0 +1,16 @@
+[project]
+name = "smart-agriculture-yield-insurance"
+description = "Blockchain project: smart-agriculture-yield-insurance"
+authors = ["Azeezyekini007829 <>"]
+telemetry = false
+cache_dir = ".clarinet"
+requirements = []
+
+[contracts.parametric-insurance-engine]
+path = "contracts/parametric-insurance-engine.clar"
+depends_on = []
+
+[contracts.agricultural-data-oracle]
+path = "contracts/agricultural-data-oracle.clar"
+depends_on = []
+
